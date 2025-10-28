@@ -67,7 +67,7 @@ export default function Page() {
         <CallToAction label="Accéder aux services" redirect="/services" />
       </div>
 
-      <div className="flex justify-center">
+      <div className="hidden sm:flex justify-center">
         <Image
           src={"sectionProcess.svg"}
           alt={"procédure conseillé"}
